@@ -1,5 +1,4 @@
 function plotERP(time,data,label)
-figure
 plot(time,data) %plot ERP
 y1=ylim;
 hold on
