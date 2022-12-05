@@ -8,7 +8,7 @@ r=meanPeak(1)/1000+window;
 %[~,b]=min(abs(time-0.75));
 
 f=14; %fontsize
-figure('DefaultAxesFontSize',f)
+%figure('DefaultAxesFontSize',f)
 plot(time,data,'LineWidth',3)
 title(tit)
 yl=ylim;
